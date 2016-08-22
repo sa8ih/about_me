@@ -1,21 +1,52 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+  text-align: center;
+}
+
 header {
-  background: #0000B8;
+  background: #003c3c;
   padding: 5px;
   text-align: center;
   font-size: 25px;
   color : #fff;
+  img-align: center;
 }
 
 main {
-  background:##0000ff;
-}
-body {
-  font-size: 10px;
-  margin-bottom: 5px;
-  outline: dotted 5px orange;
+  padding-top: 40px;
+  background:#019696;
 }
 
+p {
+    float: left;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+body {
+  color:#fcfcfc;
+	background-color:#355664;
+	font-family:Arial, Helvetica, sans-serif
+}
+
+h2 {
+
+}
+
+
 footer {
-  background: #0000B8;
-  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  background: #003c3c;
+  padding: 5px 700px;
 }
