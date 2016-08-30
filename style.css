@@ -1,52 +1,18 @@
-*{
-	/* Universal reset: */
-	margin:0;
-	padding:0;
+body {
+    background: #d0c2a1;
 }
 
-header,footer,
-article,section,
-hgroup,nav,
-figure{
-	/* Giving a display value to the HTML5 rendered elements: */
-	display:block;
-  text-align: center;
-}
-
-header {
-  background: #003c3c;
-  padding: 5px;
-  text-align: center;
-  font-size: 25px;
-  color : #fff;
-  img-align: center;
-}
-
-main {
-  padding-top: 40px;
-  background:#019696;
+input {
+  border: 5px black ridge;
+  border-radius: 5px;
+  margin-left: 43.5%;
 }
 
 p {
-    float: left;
-    margin-left: 50px;
-    margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b9ffe3;
+  font-family: Arial;
+  text-align: center;
 }
-
-body {
-  color:#fcfcfc;
-	background-color:#355664;
-	font-family:Arial, Helvetica, sans-serif
-}
-
-h2 {
-
-}
-
-
-footer {
-  position: absolute;
-  bottom: 0;
-  background: #003c3c;
-  padding: 5px 700px;
-}
+/**/
